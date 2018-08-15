@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Smoke</th></tr><tr><td><a href="#t0">Real-Device-2</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">9,203</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">Real-Device-1</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">11,884</td><td></td><td></td></tr><tr><th>Total</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">21,087</th><th colspan="2"></th></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Smoke</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Real-Device-2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.appium.AppiumParallelTests</td><td><a href="#m0">loginTest</a></td><td rowspan="1">1529575680153</td><td rowspan="1">803</td></tr></tbody><tbody id="t1"><tr><th colspan="4">Real-Device-1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.appium.AppiumParallelTests</td><td><a href="#m1">loginTest</a></td><td rowspan="1">1529575682003</td><td rowspan="1">1486</td></tr></tbody></table><h2>Real-Device-2</h2><h3 id="m0">com.appium.AppiumParallelTests#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;WINDOWS-CN1QL0J&apos;, ip: &apos;192.168.0.165&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=am.ggtaxi.main, deviceScreenSize=1080x1920, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=0271dd5aba8bd7a8, platform=LINUX, deviceUDID=0271dd5aba8bd7a8, appActivity=am.ggtaxi.main.activities.GGIntroActivity, desired={appPackage=am.ggtaxi.main, appActivity=am.ggtaxi.main.activities.GGIntroActivity, noReset=true, platformVersion=8.1.0, udid=0271dd5aba8bd7a8, platformName=Android, deviceName=ce051605c151cc3904}, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Nexus 5X, udid=0271dd5aba8bd7a8, deviceManufacturer=LGE, platformName=LINUX}]
+Session ID: cfd115d9-b1a4-4582-9dc2-46d8ad5c0f4d
+*** Element info: {Using=id, value=io.selendroid.testapp:id/my_text_field}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at com.appium.AppiumParallelTests.loginTest(AppiumParallelTests.java:62)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>Real-Device-1</h2><h3 id="m1">com.appium.AppiumParallelTests#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;WINDOWS-CN1QL0J&apos;, ip: &apos;192.168.0.165&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=am.ggtaxi.main, deviceScreenSize=1440x2560, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=ce051605c151cc3904, platform=LINUX, deviceUDID=ce051605c151cc3904, appActivity=am.ggtaxi.main.activities.GGIntroActivity, desired={appPackage=am.ggtaxi.main, appActivity=am.ggtaxi.main.activities.GGIntroActivity, noReset=true, platformVersion=8.1.0, udid=ce051605c151cc3904, platformName=Android, deviceName=ce051605c151cc3904}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-G935F, udid=ce051605c151cc3904, deviceManufacturer=samsung, platformName=LINUX}]
+Session ID: f9f41ca8-8c9c-4eff-954e-111498a29d2c
+*** Element info: {Using=id, value=io.selendroid.testapp:id/my_text_field}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at com.appium.AppiumParallelTests.loginTest(AppiumParallelTests.java:62)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

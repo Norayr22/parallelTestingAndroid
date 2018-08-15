@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke" duration-ms="11884" started-at="2018-06-21T10:07:52Z" finished-at="2018-06-21T10:08:04Z">
+    <groups>
+    </groups>
+    <test name="Real-Device-2" duration-ms="9203" started-at="2018-06-21T10:07:52Z" finished-at="2018-06-21T10:08:02Z">
+      <class name="com.appium.AppiumParallelTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appium.AppiumParallelTests@1bce4f0a]" name="setUp" is-config="true" duration-ms="7286" started-at="2018-06-21T14:07:52Z" finished-at="2018-06-21T14:08:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0271dd5aba8bd7a8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8.1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.appium.AppiumParallelTests@1bce4f0a]" name="loginTest" duration-ms="803" started-at="2018-06-21T14:08:00Z" finished-at="2018-06-21T14:08:00Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'WINDOWS-CN1QL0J', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=am.ggtaxi.main, deviceScreenSize=1080x1920, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=0271dd5aba8bd7a8, platform=LINUX, deviceUDID=0271dd5aba8bd7a8, appActivity=am.ggtaxi.main.activities.GGIntroActivity, desired={appPackage=am.ggtaxi.main, appActivity=am.ggtaxi.main.activities.GGIntroActivity, noReset=true, platformVersion=8.1.0, udid=0271dd5aba8bd7a8, platformName=Android, deviceName=ce051605c151cc3904}, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Nexus 5X, udid=0271dd5aba8bd7a8, deviceManufacturer=LGE, platformName=LINUX}]
+Session ID: cfd115d9-b1a4-4582-9dc2-46d8ad5c0f4d
+*** Element info: {Using=id, value=io.selendroid.testapp:id/my_text_field}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'WINDOWS-CN1QL0J', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=am.ggtaxi.main, deviceScreenSize=1080x1920, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=0271dd5aba8bd7a8, platform=LINUX, deviceUDID=0271dd5aba8bd7a8, appActivity=am.ggtaxi.main.activities.GGIntroActivity, desired={appPackage=am.ggtaxi.main, appActivity=am.ggtaxi.main.activities.GGIntroActivity, noReset=true, platformVersion=8.1.0, udid=0271dd5aba8bd7a8, platformName=Android, deviceName=ce051605c151cc3904}, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Nexus 5X, udid=0271dd5aba8bd7a8, deviceManufacturer=LGE, platformName=LINUX}]
+Session ID: cfd115d9-b1a4-4582-9dc2-46d8ad5c0f4d
+*** Element info: {Using=id, value=io.selendroid.testapp:id/my_text_field}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at com.appium.AppiumParallelTests.loginTest(AppiumParallelTests.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.appium.AppiumParallelTests@1bce4f0a]" name="tearDown" is-config="true" duration-ms="1078" started-at="2018-06-21T14:08:00Z" finished-at="2018-06-21T14:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.appium.AppiumParallelTests -->
+    </test> <!-- Real-Device-2 -->
+    <test name="Real-Device-1" duration-ms="11884" started-at="2018-06-21T10:07:52Z" finished-at="2018-06-21T10:08:04Z">
+      <class name="com.appium.AppiumParallelTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appium.AppiumParallelTests@239963d8]" name="setUp" is-config="true" duration-ms="9141" started-at="2018-06-21T14:07:52Z" finished-at="2018-06-21T14:08:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4726]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ce051605c151cc3904]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.appium.AppiumParallelTests@239963d8]" name="loginTest" duration-ms="1486" started-at="2018-06-21T14:08:02Z" finished-at="2018-06-21T14:08:03Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'WINDOWS-CN1QL0J', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=am.ggtaxi.main, deviceScreenSize=1440x2560, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=ce051605c151cc3904, platform=LINUX, deviceUDID=ce051605c151cc3904, appActivity=am.ggtaxi.main.activities.GGIntroActivity, desired={appPackage=am.ggtaxi.main, appActivity=am.ggtaxi.main.activities.GGIntroActivity, noReset=true, platformVersion=8.1.0, udid=ce051605c151cc3904, platformName=Android, deviceName=ce051605c151cc3904}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-G935F, udid=ce051605c151cc3904, deviceManufacturer=samsung, platformName=LINUX}]
+Session ID: f9f41ca8-8c9c-4eff-954e-111498a29d2c
+*** Element info: {Using=id, value=io.selendroid.testapp:id/my_text_field}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'WINDOWS-CN1QL0J', ip: '192.168.0.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=am.ggtaxi.main, deviceScreenSize=1440x2560, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=ce051605c151cc3904, platform=LINUX, deviceUDID=ce051605c151cc3904, appActivity=am.ggtaxi.main.activities.GGIntroActivity, desired={appPackage=am.ggtaxi.main, appActivity=am.ggtaxi.main.activities.GGIntroActivity, noReset=true, platformVersion=8.1.0, udid=ce051605c151cc3904, platformName=Android, deviceName=ce051605c151cc3904}, platformVersion=8.0.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-G935F, udid=ce051605c151cc3904, deviceManufacturer=samsung, platformName=LINUX}]
+Session ID: f9f41ca8-8c9c-4eff-954e-111498a29d2c
+*** Element info: {Using=id, value=io.selendroid.testapp:id/my_text_field}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at com.appium.AppiumParallelTests.loginTest(AppiumParallelTests.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.appium.AppiumParallelTests@239963d8]" name="tearDown" is-config="true" duration-ms="1239" started-at="2018-06-21T14:08:03Z" finished-at="2018-06-21T14:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.appium.AppiumParallelTests -->
+    </test> <!-- Real-Device-1 -->
+  </suite> <!-- Smoke -->
+</testng-results>

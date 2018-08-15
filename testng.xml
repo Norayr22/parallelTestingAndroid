@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke" verbose="1" parallel="tests" thread-count="5">
+	<test name="Real-Device-2">
+		<classes>
+			<class name="com.appium.AppiumParallelTests">
+				<methods>
+					<include name="loginTest"></include>
+				</methods>
+			</class>
+			<parameter name="port" value="4723"></parameter>
+			<parameter name="device" value="0271dd5aba8bd7a8"></parameter>
+			<parameter name="platform_name" value="Android"></parameter>
+			<parameter name="platform_version" value="8.1.0"></parameter>
+		</classes>
+	</test>
+
+	
+	<test name="Real-Device-1">
+		<classes>
+			<class name="com.appium.AppiumParallelTests">
+				<methods>
+					<include name="loginTest"></include>
+				</methods>
+			</class>
+			<parameter name="port" value="4726"></parameter>
+			<parameter name="device" value="ce051605c151cc3904"></parameter>
+			<parameter name="platform_name" value="Android"></parameter>
+			<parameter name="platform_version" value="8.0"></parameter>
+		</classes>
+	</test>
+</suite>

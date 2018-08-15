@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke]" parallel="tests">
+  <test name="Real-Device-2(failed)" parallel="tests">
+    <parameter name="platform_version" value="8.1.0"/>
+    <parameter name="port" value="4723"/>
+    <parameter name="platform_name" value="Android"/>
+    <parameter name="device" value="0271dd5aba8bd7a8"/>
+    <classes>
+      <class name="com.appium.AppiumParallelTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.appium.AppiumParallelTests -->
+    </classes>
+  </test> <!-- Real-Device-2(failed) -->
+  <test name="Real-Device-1(failed)" parallel="tests">
+    <parameter name="platform_version" value="8.0"/>
+    <parameter name="port" value="4726"/>
+    <parameter name="platform_name" value="Android"/>
+    <parameter name="device" value="ce051605c151cc3904"/>
+    <classes>
+      <class name="com.appium.AppiumParallelTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.appium.AppiumParallelTests -->
+    </classes>
+  </test> <!-- Real-Device-1(failed) -->
+</suite> <!-- Failed suite [Smoke] -->
