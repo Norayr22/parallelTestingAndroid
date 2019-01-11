@@ -26,7 +26,7 @@ public class AppiumParallelTests {
 	
 	/**
 	 * 
-	 * @author Khaja
+	 * @author Norayr
 	 *
 	 * Grid: java -jar /Users/Khaja/Documents/jars/selenium-server-standalone-2.53.0.jar -role huhttp://127.0.0.1:4444/grid
 	 * Node 1: appium -a 127.0.0.1 -p 4723 --no-reset --bootstrap-port 4728 -U 192.168.57.102:5555 --nodeconfig /Users/Khaja/Documents/jars/node_config_1.json
